@@ -731,6 +731,10 @@ div.main-trackList-trackListRow {
   backdrop-filter: blur(1rem);
 }
 
+.LUYCqcZnze_Q4ihQM2B3 { /* Fixes song and artist text in cinema view */
+  bottom: var(--player-bar-height, 92px) !important;
+}
+
 .QgD5n5t4yCMPYSrZ9Ecl /* Home card to left transition */ {
   --x: calc(var(--container-width, 100vw) * -1);
   transform: translate3d(var(--x), 0, 0);
