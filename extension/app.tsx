@@ -10,6 +10,7 @@ import setPlayer from '@features/setPlaybar.tsx';
 import setRightSidebar from '@features/setRightSidebar.ts';
 import setUIPreferences from '@features/setUIPreferences.ts';
 import setUnderMainView from '@features/setUnderMainView.tsx';
+import setCinemaView from '@features/setCinemaView.ts';
 import appStore from '@store/appStore.ts';
 import tempStore from '@store/tempStore.ts';
 import addRootCardSizeToDom from '@utils/addRootCardSizeToDom.ts';
@@ -50,6 +51,7 @@ function main() {
   setLibrary();
   setGlobalNav();
   setRightSidebar();
+  setCinemaView();
 
   // Add States
   addPlayerData();

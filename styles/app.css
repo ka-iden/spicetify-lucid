@@ -638,15 +638,20 @@ div.main-trackList-trackListRow {
   padding-inline: 8px;
 }
 
-.eDAOcHFo38J9DpKwbc3n {
+.eDAOcHFo38J9DpKwbc3n { /* Removes fade to black in cinema mode when scrolling down */
   display: none !important;
+}
+
+.x81eiLoZ5zWkSS1y28Oj { /* Removes background from around album cover in cinema mode */
+  background: transparent !important;
 }
 
 @container below-fold-cards (width >= 784px) {
   .bMe8DpNWGTTWcxgLJODd {
     margin: 0 48px 32px 48px;
   }
-  .tB3JVNYttFlVC_oYVfjI { /* Fixes related music videos card size when in cinema view */
+  .tB3JVNYttFlVC_oYVfjI { /* Fixes related music videos card size and background color when in cinema view */
+    background-color: rgba(var(--clr-surface-1-rgb), var(--clr-bg-alpha)) !important;
     max-width: 1148px;
     margin: auto;
   }
